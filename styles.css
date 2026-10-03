@@ -1223,8 +1223,8 @@ textarea:focus-visible {
   position: relative;
   z-index: 1;
 
-  width: 100%;
-   aspect-ratio: 16 / 8;
+  width: 93px;
+   aspect-ratio: 3 / 4;
 
   display: block;
 
@@ -1233,6 +1233,7 @@ textarea:focus-visible {
   border-radius: 13px;
 
   transition: transform 0.3s ease;
+   overflow: hidden;
 }
 
 .product-card:hover .product-image {
